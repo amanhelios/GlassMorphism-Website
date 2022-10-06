@@ -1,0 +1,122 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/bg4.png);
+    background-size: cover;
+}
+
+    .glass
+    {
+        display: flex;
+        flex-direction: column;
+        
+        width: 70%;
+
+        border: solid 3px;
+        border-radius: 0px;
+        border-image:url(images/bg3_bl.jpg) 1 round;
+
+        margin: 90px;
+        padding: 30px;
+
+        backdrop-filter: blur(30px);
+    }
+        .navbar
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-between;
+        }
+            .title
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+
+            }
+                h1
+                {
+                    color: #ffffff;
+                    font-weight: bolder;
+
+                    font-size:50px;
+                }
+
+            .nav-item
+            {
+                padding:10px;
+                margin: 5px;
+                font-size: small;
+            }
+
+
+            a
+            {
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover
+            {
+                color: white;
+                text-shadow: #0000009a 0px 0px 20px;
+            }
+
+            .join
+            {
+                background-color: #dd681a;
+                padding: 10px;
+            }
+
+            .join:hover
+            {
+                background-color: #0000001a;
+                text-shadow: #ffffff00 0px 0px 20px;
+
+            }
+
+        .secondary
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: flex-end;
+            
+
+            color: white;
+        }
+            .order
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: flex-end;
+
+                width: 40%;
+                margin-top: 20%;
+                margin-right: 30px;
+            }
+                .order_bt
+                {
+                    padding: 5px;
+                    width: 100px;
+                    text-align: center;
+                    font-size: smaller;
+
+                    border: solid 2px ;
+                }
+                .order_bt:hover
+                {
+                    text-shadow: none;
+                    background-color: #ffffff42;
+                }
+                p
+                {
+                    text-align: right;
+                }
+                h5
+                {
+                    color: rgba(255, 255, 255, 0.384);
+                }
