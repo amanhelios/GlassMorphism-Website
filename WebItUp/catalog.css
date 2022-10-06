@@ -1,0 +1,77 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/bg4.png);
+    background-size: cover;
+
+    transition: 0.2s;
+}
+
+    .glass
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 60%;
+
+        border: solid 3px;
+        border-radius: 0px;
+        border-image:url(images/bg3_bl.jpg) 1 round;
+
+        margin: 90px;
+        padding: 30px;
+
+        backdrop-filter: blur(30px);
+    }
+        h1
+        {
+            color: white;
+            text-align: left;
+        }
+
+        .menu
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .item
+        {
+            height: 200px;
+            width: 200px;
+
+            margin: 10px;
+
+            border: solid 2px white;
+        }
+        .item:hover
+        {
+            background-color: rgba(0, 0, 0, 0.055);
+        }
+        
+
+        a
+        {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+            color: white;
+            text-shadow: #ffffff9a 0px 0px 20px;
+        }
+
+        .back
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            margin-top: 50px;
+            width: 70%;   
+        }
