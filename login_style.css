@@ -1,0 +1,80 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/bg4.png);
+    background-size: cover;
+
+    transition: 0.2s;
+}
+
+    .glass
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        height: 30rem;
+        width: 30rem;
+
+        border: solid 3px;
+        border-radius: 0px;
+        border-image:url(images/bg3_bl.jpg) 1 round;
+
+        margin: 90px;
+
+        backdrop-filter: blur(30px);
+    }
+        h1
+        {
+            color: white;
+            text-align: left;
+        }
+        input
+        {
+            border: solid #ffffff42 1px;
+            background-color: #ffffff00;
+
+            padding: 10px;
+            margin: 10px;
+            width: 40%;
+
+            color: white;
+        }
+
+        button
+        {
+            border:  #ffffff 2px;
+
+            color: white;
+            background-color: #dd681a;
+
+            padding: 10px;
+            margin: 10px;
+        }
+        button:hover
+        {
+            background-color: #00000017;
+        }
+
+        a
+        {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+            color: white;
+            text-shadow: #ffffff9a 0px 0px 20px;
+        }
+
+        .back
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            margin-top: 50px;
+            width: 70%;   
+        }
